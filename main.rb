@@ -2,7 +2,7 @@
 
 require 'telegram/bot'
 
-TOKEN = 'API TOKEN'
+TOKEN = ENV['TELEGRAM_BOT_API_TOKEN']
 
 HTML = "1) HTML за 1 час: https://www.youtube.com/watch?v=5pBcKKiZSGE - неплохое видео для краткого ознакомления с HTML.
 2) Курс Евгения Попова по HTML. Курс 2011 года, но он даёт очень хорошие базовые знания данной технологии: https://www.youtube.com/playlist?list=PLB86E02CE3735E3B6
